@@ -1,7 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import GuestLayout from '../components/GuestLayout.vue';
+</script>
 
 <template>
-  Login
+  <GuestLayout>
+    Login
+  </GuestLayout>
 </template>
 
 <style scoped></style>
